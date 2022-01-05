@@ -9,8 +9,6 @@ provider:
 plugins:
   - serverless-prune-plugin
   - serverless-offline
-environment:
-  KEY: J/PYjc1ftDFK5+77U1PB80v2TamokGap5yCIP2YI6tQ=
 functions:
   lambdaEdge:
     name: aws-lambda-service
